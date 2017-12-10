@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>401 Authorization Required</TITLE>
+<link rel="stylesheet" href="http://zenbox.pl/default_webpage/style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD><BODY>
+<center><h1>Ups...Coś poszło nie tak. Odwiedź nas później</h1><br><h3>Underwatch.pl</h3></center>
+</div><!-- Container -->
+<I><!--#echo var="HTTP_HOST" --></I>
+</BODY></HTML>
+

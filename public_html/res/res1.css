@@ -1,0 +1,4151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	
+	background-image: url('images/background.jpg');
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#logoTheme
+{
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	background-color: #fff;
+}
+
+#serachSpace
+{
+	margin-top: 200px;
+}
+@media only screen and (min-width: 300px) {
+	.bx-wrapper
+	{
+		width: 220px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+    #topbar li
+	{
+		float: left;
+		font-size: 13px;
+		text-align:center;
+	}
+	#topbar ul
+	{
+		
+	}
+	#images
+	{
+		margin-top: 12%;
+	}
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#spaceMaker
+	{
+		color: #fff;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: 20%;
+		text-align: left;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		font-size: 20px;
+	}
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 20px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect
+	{
+		padding: 10px;
+		color: #fff;
+		font-size: 30px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 50px;
+	}
+	#redirect a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: #fff;
+
+	}
+	.images li img
+	{
+		float: left;
+		padding: 0px;	
+	}
+	.rate li img
+	{
+		float: left;
+		padding: 0px;	
+	}
+	.newsserial li img
+	{
+		float: left;
+		padding: 0px;
+	}
+	.toprateserials li img
+	{
+		float: left;
+		padding: 0px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 80%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		 position: absolute;
+		top: 38%;
+	  	left: 50%;
+	  	border-radius: 10px;
+	  	transform: translate(-50%, -50%);
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 100%;
+		text-align: left;
+		color: #fff;
+		font-size: 20px;
+
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 20px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 20px;
+		margin-top: 10%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-top: 120px
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 100%;
+
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+
+	    font-size: 25px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		 
+	}
+	#formFilm
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 12%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 220px;
+	    height: 0px;
+	    left: 27%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 100%;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+		margin-left: 35px;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 40px;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+
+		
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 51%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 412px) {
+    #topbar li
+	{
+		float: left;
+		font-size: 15.5px;
+		text-align:center;
+	}
+	#topbar ul
+	{
+		
+	}
+	#images
+	{
+		margin-top: 12%;
+	}
+
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#spaceMaker
+	{
+		color: #fff;
+		margin-right: 1400px;
+		margin-bottom: 20px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: 20%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		font-size: 30px;
+	}
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect
+	{
+		padding: 10px;
+		color: #fff;
+		font-size: 23px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: #fff;
+
+	}
+	.images li img
+	{
+		float: left;
+		width: 320px;
+	}
+	.rate li img
+	{
+		float: left;
+		width: 320px;
+	}
+	.newsserial li img
+	{
+		float: left;
+		width: 320px;
+	}
+	.toprateserials li img
+	{
+		float: left;
+		width: 320px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 80%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 38%;
+	  	left: 50%;
+	  	border-radius: 10px;
+	  	transform: translate(-50%, -50%);
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: left;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 20px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-top: 120px;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 30px;
+	    font-size: 20px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		margin-right: 200px;
+	}
+	#formFilm
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 20px;
+		width: 100%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 15%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 220px;
+	    left: 30%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 100%;
+		text-align: center;
+		color: #fff;
+		float: left;
+
+	}
+	.descSerial
+	{
+		color: #fff;
+		font-size: 20px;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+		position: relative;
+		left: 20px;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+
+}
+
+@media only screen and (min-width: 568px){
+
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+	}
+}
+
+
+@media only screen and (min-width: 600px){
+
+	#serachSpace
+	{
+		margin-top: 20px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+@media only screen and (min-width: 700px) {
+	.bx-wrapper
+	{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+		box-shadow: none;
+	}
+	.bx-viewport
+	{
+		background-color: #000;
+		border: none;
+		box-shadow: none;
+	}
+    #topbar li
+	{
+		
+	float: left;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+	}
+	#topbar ul
+	{
+		margin-left: 12%;
+	}
+	#images
+	{
+		margin-top: 12%;
+	}
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+	}
+	#spaceMaker
+	{
+		color: #fff;
+		margin-right: 1400px;
+		margin-bottom: 70px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: 10%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect
+	{
+		padding: 100px;
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: #fff;
+
+	}
+	.images li img
+	{
+		float: left;
+		margin-left: 150px;
+	}
+	.rate li img
+	{
+		float: left;
+		margin-left: 150px;
+	}
+	.newsserial li img
+	{
+		float: left;
+		margin-left: 150px;
+	}
+	.toprateserials li img
+	{
+		float: left;
+		margin-left: 150px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 30%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 20%;
+	  	left: 50%;
+	  	border-radius: 10px;
+	  	transform: translate(-50%, -50%);
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 30px;
+	    font-size: 50px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		position: absolute;
+		left: 10%;
+	}
+	#formFilm
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 14%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 220px;
+	    left: 40%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 100%;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 40px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 40px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+		position: relative;
+		left: 150px;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 53%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    #topbar li
+	{
+		
+	float: left;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+	}
+	#topbar ul
+	{
+		margin-left: 24%;
+	}
+	#images
+	{
+		margin-top: 12%;
+	}
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#spaceMaker
+	{
+		color: #fff;
+		margin-right: 1400px;
+		margin-bottom: 70px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: 10%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect
+	{
+		padding: 100px;
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: #fff;
+
+	}
+	.images li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		margin-left: 250px;
+	}
+	.rate li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		margin-left: 250px;
+	}
+	.newsserial li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		margin-left: 250px;
+		
+	}
+	.toprateserials li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		margin-left: 250px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 30%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 20%;
+	  	left: 50%;
+	  	border-radius: 10px;
+	  	transform: translate(-50%, -50%);
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 50px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-top: 150px;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 10px;
+	    font-size: 20px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		position: absolute;
+		left: 20%;
+	}
+	#formFilm
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 20%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 500px;
+	    left:28%;
+	    top: 130px;
+	    font-size: 30px;
+	    color: red;
+	    font-weight: 900;
+	    text-align: center;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+		position: relative;
+		left:  250px;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 54%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1224px) {
+    #topbar li
+	{
+		
+	float: left;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+	}
+	#topbar ul
+	{
+		margin-left: 30%;
+	}
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#spaceMaker
+	{
+		color: #fff;
+		margin-right: 1400px;
+		margin-bottom: 70px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: 2%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect
+	{
+		padding: 100px;
+		color: #fff;
+		font-size: 70px;
+		margin-top: 10%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: #fff;
+
+	}
+	.images li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+	}
+	.rate li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+	}
+	.newsserial li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+	}
+	.toprateserials li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		margin-right: 1900px;
+		text-align: left;
+		width: 50%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 25%;
+	  	left: 43%;
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 30px;
+	    font-size: 50px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		position: absolute;
+		left: 35%;
+	}
+	#formFilm
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 35%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 220px;
+	    left: 45%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+		.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 80%;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 40%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1220px) {
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	.images li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 211px;
+	}
+	.rate li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 207px;
+	}
+	.newsserial li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 211px;
+	}
+	.toprateserials li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 211px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		margin-right: 1900px;
+		text-align: left;
+		width: 50%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 25%;
+	  	left: 43%;
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 30px;
+	    font-size: 50px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		position: absolute;
+		left: 35%;
+	}
+	#formFilm
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 35%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 220px;
+	    left: 45%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+		.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 80%;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 52%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+
+}
+
+@media only screen and (min-width: 1366px){
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 1440px) {
+	#serachSpace
+	{
+		margin-top: 200px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#spaceMaker
+	{
+		color: #fff;
+		margin-right: 1400px;
+		margin-bottom: 70px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: 10%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+		.images li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 228px;
+	}
+	.rate li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 224px
+	}
+	.newsserial li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 228px
+	}
+	.toprateserials li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 228px
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 25%;
+		margin-right: 1900px;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 20%;
+	  	left: 50%;
+	  	border-radius: 10px;
+	  	transform: translate(-50%, -50%);
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+		float: left;
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 30px;
+	    font-size: 30px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		position: absolute;
+		left: 30%;
+	}
+	#formFilm
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 25%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 100%;
+	    left: 2%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+		position: relative;
+		left: 450px;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 54%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		width: 200px;
+	}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1500px) {
+	#serachSpace
+	{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#buttonFind{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+    #topbar li
+	{
+		
+	float: left;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+	}
+	#topbar ul
+	{
+		margin-left: 35%;
+	}
+	#images
+	{
+		margin-top: 12%;
+	}
+
+
+	#spaceMaker
+	{
+		color: #fff;
+		margin-right: 1400px;
+		margin-bottom: 70px;
+		color: #fff;
+		font-size: 40px;
+		margin-top: -5%;
+		text-align: left;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#newsDesc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect
+	{
+		padding: 100px;
+		color: #fff;
+		font-size: 70px;
+		margin-top: 2%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#redirect a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: #fff;
+
+	}
+	.images li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 302px;
+		height: 400px;
+	}
+	.rate li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 298px;
+	}
+	.newsserial li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 302px;
+		height: 400px;
+	}
+	.toprateserials li img
+	{
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		width: 302px;
+	}
+	#Desc
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		margin-right: 1900px;
+		text-align: left;
+		width: 50%;
+		text-transform: uppercase;
+		font-weight: 900;
+		line-height: 1;
+		z-index: 5;
+	}
+	#categoryButton
+	{
+		position: absolute;
+		top: 29%;
+	  	left: 50%;
+	  	border-radius: 10px;
+	  	transform: translate(-50%, -50%);
+	}
+	#category
+	{
+		margin-top: 250px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		display: none;
+	}
+	.allFilms
+	{
+		float: left;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.allFilms img:hover
+	{
+		opacity: 0.7;
+	}
+	.allFilms li
+	{
+
+		float: left;
+
+	}
+	#info
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 20%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+		margin-bottom: 200px;
+	}
+	#descReg
+	{
+		color: #fff;
+		font-size: 70px;
+		margin-top: 10%;
+		margin-right: 1900px;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 900;
+		overflow: hidden;
+		line-height: 1;
+	}
+	#descReg a
+	{
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	    position: relative;
+	    width: 220px;
+	    height: 40px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    line-height: 43px;
+	    font-family: Oswald, Helvetica;
+	    text-decoration: none;
+	    margin: 30px;
+	    font-size: 50px;
+	    padding: 10px;
+	}
+	#addButton
+	{
+		position: absolute;
+		left: 35%;
+	}
+	#formFilm
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formFilm input
+	{
+		margin-bottom: 30px;
+	}
+	#formFilm label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formSerial
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formSerial input
+	{
+		margin-bottom: 30px;
+	}
+	#formOdcinek
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#formOdcinek label
+	{
+		color: #fff;
+		text-align: left;
+		width: 100%;
+	}
+	#formOdcinek input
+	{
+		margin-bottom: 30px;
+	}
+	#form
+	{
+		padding: 50px;
+		width: 50%;
+		position: absolute;
+		left: 25%;
+	}
+	#form input
+	{
+		margin-bottom: 30px;
+	}
+	#buttonRegistry
+	{
+		position: absolute;
+		left: 35%;
+	}
+	#errorLogin
+	{
+		position: relative;
+	    width: 220px;
+	    left: 45%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	.descSerial
+	{
+
+		color: #fff;
+		font-size: 20px;
+		width: 80%;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+	.categorySerial
+	{
+		float: left;
+		padding: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.rateSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial
+	{
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 128), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	.filmwebSerial a
+	{
+		color: #fff;
+	}
+	.filmwebSerial a:hover
+	{
+		color: #fff;
+	}
+	.autorSerial
+	{
+		float: left;
+		padding: 10px;
+		border-radius: 10px;
+		 text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+	    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+	    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(210, 80, 104);
+	    border-image: initial;
+	    border-radius: 5px;
+	}
+	#serialTab
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		margin-left: 11%;
+		color: #fff;
+		float: left;
+
+	}
+	#imgSerial
+	{
+		float: left;
+		position: relative;
+		left: 1px;
+	}
+	.nameSerial
+	{
+		float: left;
+		color: #fff;
+		font-size: 50px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+	}
+
+	.rateSerial
+	{
+
+	}
+	#listSeasons
+	{
+		margin-top: 100px;
+		width: 80%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		left: 12%;
+	}
+	.linkSerial
+	{
+		width: 93.45%;
+	}
+	.linkSerial a
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	.linkSerial:hover
+	{
+		background-color: #222;
+	}
+	#numSeasons
+	{
+
+		color: #fff;
+		font-size: 20px;
+		margin-right: 100px;
+		text-align: center;
+		overflow: hidden;
+		line-height: 1;
+		padding: 10px;
+		text-align: left;
+		background-color: #333;
+	}
+	.blankSerial
+	{
+		padding: 10px;
+		width: 92.5%;
+		font-size: 20px;
+	}
+	#logo
+	{
+		position: absolute;
+		top: 30px;
+		left: 51.5%;
+		transform: translate(-50%, -50%);
+	}
+	#logo img
+	{
+		  position: fixed;
+ 		 top: 100%;
+ 			left: 50%;
+ 		 /* bring your own prefixes */
+ 	 transform: translate(-50%, -50%);
+	}
+		.bx-wrapper
+	{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+
+.onceFilm
+{
+	float:left;
+	background:#eee url(images/loading.gif) 50% 50% no-repeat;
+}
+
+#registryOk
+{
+	position: absolute;
+	top: 100px;
+	color: green;
+	left: 0px;
+	padding: 10px;
+	background-color: lightgreen;
+}
+
+
+
+#topbar a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+}
+#topbar a:hover
+{
+	border-bottom: 1px solid #fff;
+	border-radius: 1px;
+}
+#content
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+	margin-bottom: 200px;
+}
+#contentM
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+#content2
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+#content3
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+#content4
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+
+
+
+
+
+
+
+
+.hide1{
+	opacity:0
+}
+ 
+.show {
+	opacity: 1;
+}
+
+
+
+#soloFilm 
+{
+	width: 500px;
+	height: 200px;
+}
+#filmList
+{
+	float: left;
+}
+
+.allFilms span
+{
+	position: absolute;
+	z-index: 5;
+	margin-top: 130px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+.filmDesc
+{
+	position: absolute;
+	z-index: 5;
+	color: #fff;
+	font-size: 12px;
+	width: 280px;
+	margin-top: -40px;
+	text-align: center;
+	margin-left: 10px;
+}
+#nameFilm
+{
+	width: 300px; 
+}
+.descFilm
+{
+	width: 300px;
+}
+.imgFilm {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#category a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.categoryList
+{
+	padding: 30px;
+}
+
+#registryForm
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+
+#checkboxReg
+{
+	color: #fff;	
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#congrats
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+#errorAdd
+{
+	position: absolute;
+	    width: 420px;
+	    left: 42%;
+	    top: 130px;
+	    font-size: 20px;
+	    color: red;
+}
+#adminContent
+{
+	margin-top: 150px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+#filmsCheck 
+{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+#filmsCheck
+{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+.frameFilm
+{
+	width: 300px;
+	text-align: center;
+	float: left;
+}
+#serialsCheck
+{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.frameSerial
+{
+	width: 300px;
+	text-align: center;
+	float: left;
+}
+#odcCheck
+{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.frameOdcinek
+{
+	width: 300px;
+	text-align: center;
+	float: left;
+}
+#descFilm
+{
+	color: #fff;
+	text-align: center;
+}
+#year
+{
+	color: #fff;
+	text-align: center;
+}
+#autor
+{
+	color: #fff;
+	text-align: center;
+}
+#version
+{
+	color: #fff;
+	text-align: center;
+}
+#link
+{
+	color: #fff;
+	text-align: center;
+}
+#category
+{
+	color: #fff;
+	text-align: center;
+}
+#nameFilm
+{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+#descAdmin
+{
+	position: absolute;
+	top: 0px;
+	color: #5cb85c;
+	font-size: 70px;
+	margin-top: 10%;
+	margin-right: 1900px;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 900;
+	overflow: hidden;
+	line-height: 1;
+}
+#filmContent
+{
+	margin-top: 100px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+}
+#nameF
+{
+	color: #fff;
+	font-size: 60px;
+	margin-top: 50px;
+	margin-right: 100px;
+	text-align: left;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 900;
+	overflow: hidden;
+	line-height: 1;
+}
+#descFilm
+{
+	color: #fff;
+	font-size: 16px;
+	margin-top: 40px;
+	margin-right: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	line-height: 1;
+	padding: 1px 20px 20px 20px;
+}
+#year
+{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	line-height: 1;
+}
+#rate
+{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	line-height: 1;
+	padding: 10px;
+}
+#wersja
+{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	line-height: 1;
+	padding: 10px;
+}
+#filmweb
+{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	line-height: 1;
+	padding: 10px;
+}
+#autor
+{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	line-height: 1;
+	padding: 10px;
+}
+
+#profil
+{
+	margin-top: 100px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+	color: #fff;
+	float: left;
+}
+#footer
+{
+ 	color: #fff;
+ 	text-align: center;
+ 	color: #666666;
+}
+#infoFooter
+{
+	width: 100%;
+	font-size: 12px;
+	color: #666666;
+}
+#profil
+{
+	margin-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-left: 11%;
+	border: 1px #fff solid;
+}
+#profilImg
+{
+	position: relative;
+	float: left;
+}
+#nameProfil
+{
+	margin-top: 220px;
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 900;
+	float: left;
+	background-color: #333;
+	padding: 10px;
+}
+#tabProfil
+{
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	margin-left: 11%;
+	border: 1px #fff solid;
+}
+.liProfil
+{
+	float: left;
+	background-color: #333;
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	width: 306.8px;
+}
+.liProfil:hover
+{
+	background-color: #444;
+	cursor: pointer;
+}
+/*#####################################*/
+
+
+.push_button {
+    position: relative;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 43px;
+    font-family: Oswald, Helvetica;
+    display: block;
+    text-decoration: none;
+    margin: 30px;
+}
+.red {
+    text-shadow: rgb(168, 65, 85) -1px -1px 0px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(255, 255, 255, 0.1) 0px -1px 0px inset, rgb(173, 66, 87) 0px 4px 0px, rgba(0, 0, 0, 0.5) 0px 4px 2px;
+    background: linear-gradient(rgb(246, 108, 123), rgb(210, 80, 104)) rgb(210, 80, 104);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(210, 80, 104);
+    border-image: initial;
+    border-radius: 5px;
+}
+
+
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 8em;
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
+}
+
+.link--kukuri {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
+	overflow: hidden;
+	line-height: 0.75;
+	color: #b2b0a9;
+}
+
+.link--kukuri:hover {
+	color: #b2b0a9;
+}
+
+.link--kukuri::after {
+	content: '';
+	position: absolute;gi
+	height: 16px;
+	width: 100%;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+	background: #F9F9F9;
+	transform: translate3d(-100%,0,0);
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kukuri:hover::after {
+	transform: translate3d(100%,0,0);
+}
+
+.link--kukuri::before {
+	content: attr(data-letters);
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	color: #424242;
+	white-space: nowrap;
+	width: 0%;
+	transition: width 0.4s 0.3s;
+}
+
+.link--kukuri:hover::before {
+	width: 100%;
+}
+
+
+
+
+
+
